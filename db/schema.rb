@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20161102055143) do
     t.string   "name"
     t.integer  "level"
     t.integer  "trainer_id"
+    t.integer  "health"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
