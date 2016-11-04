@@ -11,25 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161102075323) do
-=======
-ActiveRecord::Schema.define(version: 20161102055143) do
->>>>>>> 30c2260acafcc588975416ab64aa74221b5732cd
-
   create_table "pokemons", force: :cascade do |t|
     t.string   "name"
     t.integer  "level"
     t.integer  "trainer_id"
-<<<<<<< HEAD
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "health"
-=======
-    t.integer  "health"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
->>>>>>> 30c2260acafcc588975416ab64aa74221b5732cd
   end
 
   create_table "trainers", force: :cascade do |t|

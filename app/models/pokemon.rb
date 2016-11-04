@@ -11,9 +11,5 @@
 #
 
 class Pokemon < ActiveRecord::Base
-<<<<<<< HEAD
-  belongs_to :trainer
-=======
     belongs_to :trainer
->>>>>>> 30c2260acafcc588975416ab64aa74221b5732cd
 end
